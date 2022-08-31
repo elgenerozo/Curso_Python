@@ -8,3 +8,4 @@ percent = str(battery.percent)
 
 #   Mostra o resultado
 print(f'No momento vc tem {percent}%,de bateria')
+#XYZ
