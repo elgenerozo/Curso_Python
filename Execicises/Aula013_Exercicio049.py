@@ -7,3 +7,9 @@ for cont in range(0, 11):
     total = num_escolhido * cont
     print('{} X {} = {}'.format(num_escolhido, cont, total))
 print('TABUADA DO {}'.format(num_escolhido))
+print('\n' * 2)
+
+print("Outra maneira de ser feito!")
+"""Outra maneira de ser feito"""
+for cont in range(0, 11):
+    print(f"{num_escolhido} X {cont} = {num_escolhido * cont}")

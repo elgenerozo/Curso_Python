@@ -13,8 +13,8 @@ razao_r = int(input('Digita a razão da P.A.: '))
 num_elem_n = int(input('Quantos elementos deseja exibir: '))
 
 ultimo = primeiro_a1 + (num_elem_n - 1) * razao_r
-for cont in range(primeiro_a1, ultimo, razao_r):
-    print(cont)
+for cont in range(primeiro_a1, ultimo + 1, razao_r):
+    print(cont, end=' ')
 """    if primeiro_a1 < 0:
         for cont in range(primeiro_a1 - 1, ultimo, razao_r):
             print(cont)

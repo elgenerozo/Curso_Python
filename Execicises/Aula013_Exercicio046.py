@@ -7,5 +7,5 @@ import emoji
 
 for c in range(10, 0, -1):
     print(c)
-    sleep(1)
+    sleep(0.5)
 print(emoji.emojize('Python is ::performing_arts:'))

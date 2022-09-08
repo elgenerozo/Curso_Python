@@ -2,6 +2,9 @@
 ímpares, que são múltiplos de três e que se encontram no intervalo de 1 até 500."""
 
 soma = 0
-for c in range(0, 500):
-    soma = soma + 3
-print(soma)
+cont = 0
+for c in range(1, 501, 2):
+    if c % 3 == 0:
+       cont += 1
+       soma += c
+print(f'A soma de todos os {cont} valores é {soma}.')
